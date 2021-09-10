@@ -78,6 +78,11 @@ button:-moz-focusring,
 .login {
   float:right;
 }
+.login, button {
+  color: #27b4fd;
+  background-color: transparent;
+  border: none;
+}
 
 .sharesCardContainer {
   display: grid;
