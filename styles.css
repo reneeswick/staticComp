@@ -1,0 +1,88 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* nav {
+  display: grid;
+  grid-template-columns: 15% 15% 15%;
+  grid-gap: 10px;
+} */
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.login {
+  float:right;
+}
+
+.sharesCardContainer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 8px;
+}
+
+.recipientCard {
+  border: 2px solid red;
+}
+
+[hidden] {
+  display: none;
+}
