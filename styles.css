@@ -1,3 +1,6 @@
+/* blue: #27b4fd */
+/* navBar button font color: #878787 */
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -6,9 +9,12 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
+  margin: 30px;
   display: block;
 }
 
@@ -29,6 +35,8 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
+  background-color: #2b2b2b;
+  padding-bottom: 20px;
 }
 
 /* nav {
@@ -70,7 +78,21 @@ button:-moz-focusring,
 }
 
 .login {
+  padding-top: 10px;
+  /* margin-right: 20px; */
   float:right;
+}
+
+.login, button {
+  color: #27b4fd;
+  background-color: transparent;
+  border: none;
+}
+
+.navBarBtn {
+  text-transform: uppercase;
+  margin-left: 20px;
+  color: #858585;
 }
 
 .sharesCardContainer {
@@ -80,9 +102,79 @@ button:-moz-focusring,
 }
 
 .recipientCard {
-  border: 2px solid red;
+  display: grid;
+  background-color: white;
+  grid-template-rows: repeat(2, 3fr);
+  /* border: 2px solid red; */
 }
 
-[hidden] {
-  display: none;
+.cardHeader {
+  display: grid;
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQEffuWHt4-aFQ/profile-displayphoto-shrink_200_200/0/1629394844698?e=1636588800&v=beta&t=fxpO4hMl53zdlRQ7fr49l__4bT7afKCsKAsdJQTIooQ);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 16pt;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-columns: repeat(4, 25%);
+  justify-content: center;
+  /* border: 2px solid blue; */
+}
+
+.viewFullProfileBtn {
+  grid-column-start: 1;
+  align-self: start;
+  margin-left: -20px
+}
+
+.viewCount {
+  grid-column-start: 4;
+  /* border: 2px solid blue; */
+}
+
+.recipient-info-container {
+  border: 2px solid blue;
+
+}
+
+.recipientsName,
+.nameOfPlaylist {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.timeStamp,
+.recipientURL {
+  font-size: 10pt;
+  color: #b2b2b4;
+}
+
+.recipientURL {
+  color: black;
+  margin: 15px;
+  background-color: #efefef;
+  padding: 15px;
+}
+
+.playlistTitle,
+.attachmentsTitle {
+  margin-top: 5px;
+  font-size: 10pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.attachmentsTitle {
+  margin-top: 15px;
+}
+
+.attachmentCount {
+  color: #3abbfd;
+  font-size: 20pt;
+  margin-top: 5px;
+}
+
+.active {
+  color: white;
 }
