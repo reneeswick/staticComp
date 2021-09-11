@@ -178,3 +178,31 @@ button:-moz-focusring,
 .active {
   color: white;
 }
+
+#card-2 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQF649asG4pevw/profile-displayphoto-shrink_100_100/0/1626894460222?e=1636588800&v=beta&t=O7v0j16uqJkVFmbGtb7QtWnKZBZ7IwE-GddsLdCHp7k);
+}
+
+#card-3 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEnHShw6xcN-g/profile-displayphoto-shrink_100_100/0/1627588014082?e=1636588800&v=beta&t=iIlJtojocGJtzKkIEuG241R6UPa7IzBzlxDTtr6q97w);
+}
+
+#card-4 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQE31afRYnOJPQ/profile-displayphoto-shrink_100_100/0/1622683897740?e=1636588800&v=beta&t=O2eQSgOYCglfjUAiJFDyCHW-Uyj-jY3Zrc8QS-L1MuQ);
+}
+
+#card-5 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQHUDH8C-7zMow/profile-displayphoto-shrink_100_100/0/1593456821711?e=1636588800&v=beta&t=wC73YJRmSbBgjzBwB29dgBN3LYIeL6tO9Fnpq6SWE88);
+}
+
+#card-6 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQHxjBNBUZ6EzQ/profile-displayphoto-shrink_100_100/0/1625443072282?e=1636588800&v=beta&t=AdZmmQl88gG6Ct9tEL_si78SFpasbVywMsuMPrRHW2k);
+}
+
+#card-7 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/D4E35AQHqVu8cy3Bcpw/profile-framedphoto-shrink_100_100/0/1629141602336?e=1631466000&v=beta&t=CLoeDiK1NN9eiHmp53mNRyUD3pC3pNiKGGE_E9z_msU);
+}
+
+#card-8 {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQHc8KS36WRJsQ/profile-displayphoto-shrink_100_100/0/1625104449067?e=1636588800&v=beta&t=0hE_bkZg8KdQJK8Cs2FyntcZ98qvZFGzlrsfwYmNbYY);
+}
