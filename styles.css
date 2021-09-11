@@ -157,6 +157,7 @@ button:-moz-focusring,
   margin: 15px;
   background-color: #efefef;
   padding: 15px;
+  margin-left: 10px;
 }
 
 .playlistTitle,
@@ -176,6 +177,7 @@ button:-moz-focusring,
   color: #3abbfd;
   font-size: 20pt;
   margin-top: 5px;
+  margin-left: 10px;
 }
 
 .active {
