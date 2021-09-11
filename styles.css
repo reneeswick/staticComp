@@ -36,14 +36,12 @@ header {
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
   background-color: #2b2b2b;
-  padding-bottom: 20px;
+  /* padding-bottom: 10px; */
 }
 
-/* nav {
-  display: grid;
-  grid-template-columns: 15% 15% 15%;
-  grid-gap: 10px;
-} */
+nav {
+  margin-top: 20px;
+}
 
 button {
   font-family: inherit;
@@ -55,6 +53,7 @@ button {
 button,
 select {
   text-transform: none;
+  cursor: pointer;
 }
 
 button,
@@ -77,9 +76,17 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
+
+.logo {
+  width: 150px;
+  height: 50px;
+  float: right;
+  margin-top: -60px;
+}
+
 .login {
   padding-top: 10px;
-  /* margin-right: 20px; */
+  margin-right: 30px;
   float:right;
 }
 
@@ -87,13 +94,20 @@ button:-moz-focusring,
   color: #27b4fd;
   background-color: transparent;
   border: none;
+  /* margin-top: 30px; */
 }
 
 .navBarBtn {
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 30px;
   color: #858585;
+  /* margin-top: 30px; */
 }
+
+/* .login, button,
+.navBarBtn:hover {
+  color: white;
+} */
 
 .sharesCardContainer {
   display: grid;
@@ -105,6 +119,7 @@ button:-moz-focusring,
   display: grid;
   background-color: white;
   grid-template-rows: repeat(2, 3fr);
+  box-shadow: 3px 3px 10px rgba(0,0,0,.8);
   /* border: 2px solid red; */
 }
 
