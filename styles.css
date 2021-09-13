@@ -129,13 +129,17 @@ button:-moz-focusring,
   filter: none;
 }
 .viewFullProfileBtn {
+  margin-top: 10px;
   grid-column-start: 1;
   align-self: start;
   margin-left: -20px
 }
 
 .viewCount {
+  margin-top: 10px;
   grid-column-start: 4;
+  inline-size: 65px;
+  justify-self: center;
 }
 
 .recipientsName,
