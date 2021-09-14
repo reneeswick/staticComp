@@ -28,7 +28,8 @@ Mod 2 + Static Comp
 <img width="529" alt="Screen Shot 2021-09-13 at 6 16 33 PM" src="https://user-images.githubusercontent.com/83723401/133173366-c4caf90c-c451-4eb8-9335-02d7a1314908.png">
 
 ## Install + Setup
-	- Install instructions, how to access the website and how to use the website
+	- Clone down this repository.
+	-From the root directory run ```open index.html```
 
 ## Wins
 	- This was my first time using Grid. It was a wonderful challenge!
