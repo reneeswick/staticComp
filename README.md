@@ -29,7 +29,7 @@ Mod 2 + Static Comp
 
 ## Install + Setup
 	- Clone down this repository.
-	-From the root directory run ```open index.html```
+	-From the root directory run open index.html
 
 ## Wins
 	- This was my first time using Grid. It was a wonderful challenge!
