@@ -33,6 +33,7 @@ header {
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
   background-color: #2b2b2b;
+  position: relative;
 }
 
 nav {
@@ -101,6 +102,7 @@ button:-moz-focusring,
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-gap: 8px;
+  position: absolute;
 }
 
 .recipientCard {
@@ -108,6 +110,7 @@ button:-moz-focusring,
   background-color: white;
   grid-template-rows: repeat(2, 3fr);
   box-shadow: 3px 3px 10px rgba(0,0,0,.8);
+  position: relative;
 }
 
 .cardHeader {
@@ -116,7 +119,7 @@ button:-moz-focusring,
   filter: contrast(60%);
   background-color: rgba(26, 26, 15, 0.43);
   background-repeat: no-repeat;
-  background-size: 460px 250px;
+  background-size: cover;
   color: white;
   font-size: 16pt;
   grid-row-start: 1;
@@ -128,6 +131,7 @@ button:-moz-focusring,
 .cardHeader:hover {
   filter: none;
 }
+
 .viewFullProfileBtn {
   margin-top: 10px;
   grid-column-start: 1;
@@ -136,10 +140,11 @@ button:-moz-focusring,
 }
 
 .viewCount {
+  display: flex;
   margin-top: 10px;
   grid-column-start: 4;
   inline-size: 65px;
-  justify-self: center;
+  justify-content: center;
 }
 
 .recipientsName,
@@ -188,30 +193,20 @@ button:-moz-focusring,
   color: white;
 }
 
-#card-2 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQF649asG4pevw/profile-displayphoto-shrink_100_100/0/1626894460222?e=1636588800&v=beta&t=O7v0j16uqJkVFmbGtb7QtWnKZBZ7IwE-GddsLdCHp7k);
+@media (min-width: 1200px) {
+  .sharesCardContainer {
+    grid-template-columns: repeat(6, 16.7%);
+  }
 }
 
-#card-3 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEnHShw6xcN-g/profile-displayphoto-shrink_100_100/0/1627588014082?e=1636588800&v=beta&t=iIlJtojocGJtzKkIEuG241R6UPa7IzBzlxDTtr6q97w);
+@media (min-width: 1000px) {
+  .sharesCardContainer {
+    grid-template-columns: repeat(5, 20%);
+  }
 }
 
-#card-4 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQE31afRYnOJPQ/profile-displayphoto-shrink_100_100/0/1622683897740?e=1636588800&v=beta&t=O2eQSgOYCglfjUAiJFDyCHW-Uyj-jY3Zrc8QS-L1MuQ);
-}
-
-#card-5 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQHUDH8C-7zMow/profile-displayphoto-shrink_100_100/0/1593456821711?e=1636588800&v=beta&t=wC73YJRmSbBgjzBwB29dgBN3LYIeL6tO9Fnpq6SWE88);
-}
-
-#card-6 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQHxjBNBUZ6EzQ/profile-displayphoto-shrink_100_100/0/1625443072282?e=1636588800&v=beta&t=AdZmmQl88gG6Ct9tEL_si78SFpasbVywMsuMPrRHW2k);
-}
-
-#card-7 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/D4E35AQHqVu8cy3Bcpw/profile-framedphoto-shrink_100_100/0/1629141602336?e=1631466000&v=beta&t=CLoeDiK1NN9eiHmp53mNRyUD3pC3pNiKGGE_E9z_msU);
-}
-
-#card-8 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQHc8KS36WRJsQ/profile-displayphoto-shrink_100_100/0/1625104449067?e=1636588800&v=beta&t=0hE_bkZg8KdQJK8Cs2FyntcZ98qvZFGzlrsfwYmNbYY);
+@media (min-width: 540px) {
+  .sharesCardContainer {
+    grid-template-columns: repeat(4, 25%);
+  }
 }
